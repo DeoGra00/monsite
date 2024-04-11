@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>Xdrone</title>
+        <link rel="stylesheet" href="propos.css" />
+    </head>
+    <body>
+        <video id="background-video" autoplay loop muted>
+
+            <source src="images/drone.mp4" type="video/mp4">
+        </video>
+        <header class="initial-header">
+            <div class="marketing-phrase">
+                <p class="top">VENTE DE MI-SAISON JUSQU'À 70% DE RÉDUCTION. UTILISEZ LE CODE : « VENTE70 ». ACHETEZ MAINTENANT</p>   
+            </div>
+        <img src="images/xdrone.png" width="150px" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="xdrone.html">Xdrone</a></li>
+                <li><a href="propos.html">A propos</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <img src="images/panier.png" class="panier">
+                <img src="images/profil.png" class="panier">
+            </ul>
+        </nav>
+        </header>
+        <header class="fixed-header">
+            <img src="images/xdrone.png" width="150px" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="xdrone.html">Xdrone</a></li>
+                    <li><a href="propos.html">A propos</a></li>
+                    <li><a href="contact.html">Contactez-nous</a></li>
+                    <img src="images/panier.png" class="panier">
+                    <img src="images/profil.png" class="panier">
+                </ul>
+            </nav>
+        </header>
+        <script>
+            window.addEventListener('scroll', function() {
+                var initialHeader = document.querySelector('.initial-header');
+                var fixedHeader = document.querySelector('.fixed-header');
+                if (window.scrollY > 0) {
+                    initialHeader.style.display = 'none';
+                    fixedHeader.style.display = 'block';
+                } else {
+                    initialHeader.style.display = 'block';
+                    fixedHeader.style.display = 'none';
+                }
+            });
+        </script>
+        <br>
+        <div class="container"> 
+            <h1 class="title">A propos de Xdrone</h1>
+        </div>
+        <br>
+        <div class="container1">
+            <p>Xdrone est un magasin en ligne spécialisé dans la vente de drones de haute qualité. Nous proposons une large gamme de drones pour répondre à tous les besoins, que ce soit pour la photographie aérienne, la surveillance, le divertissement ou tout simplement le plaisir de voler.</p>
+            <p>Nos drones sont fabriqués avec les dernières technologies et sont équipés de fonctionnalités avancées pour garantir des performances optimales et une expérience utilisateur exceptionnelle. Chez Xdrone, nous sommes passionnés par les drones et nous nous engageons à fournir à nos clients les meilleurs produits et services possibles.</p>
+            <p>Que vous soyez un amateur de drones expérimenté ou que vous découvriez ce domaine passionnant pour la première fois, Xdrone est là pour répondre à tous vos besoins en matière de drones. Explorez notre sélection de drones dès aujourd'hui et préparez-vous à prendre votre passion pour les drones vers de nouveaux sommets !</p>
+            <p>Nos drones sont fabriqués avec les dernières technologies et sont équipés de fonctionnalités avancées pour garantir des performances optimales et une expérience utilisateur exceptionnelle. Chez Xdrone, nous sommes passionnés par les drones et nous nous engageons à fournir à nos clients les meilleurs produits et services possibles.</p>
+            <p>Que vous soyez un amateur de drones expérimenté ou que vous découvriez ce domaine passionnant pour la première fois, Xdrone est là pour répondre à tous vos besoins en matière de drones. Explorez notre sélection de drones dès aujourd'hui et préparez-vous à prendre votre passion pour les drones vers de nouveaux sommets !</p>
+            <p>Nous sommes déterminés à offrir à nos clients une expérience d'achat exceptionnelle, avec un service client de premier ordre et une livraison rapide et fiable. Chez Xdrone, nous nous engageons à vous fournir les meilleurs produits, conseils et services possibles pour vous aider à tirer le meilleur parti de votre expérience de vol.</p>
+            <p>Rejoignez la communauté Xdrone dès aujourd'hui et découvrez un monde de possibilités infinies avec nos drones de qualité supérieure. Que vous soyez un amateur passionné ou un professionnel chevronné, Xdrone a tout ce dont vous avez besoin pour réaliser vos rêves de vol !</p>
+        </div>
+    </body>
+    <footer>
+            <p>&copy; 2024 Xdrone - Tous droits réservés</p>
+    </foote>
+</html>

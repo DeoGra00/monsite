@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>Xdrone</title>
+        <link rel="stylesheet" href="xdrone.css" />
+    </head>
+    <body>
+        <video id="background-video" autoplay loop muted>
+
+            <source src="images/drone.mp4" type="video/mp4">
+        </video>
+        <header class="initial-header">
+            <div class="marketing-phrase">
+                <p class="top">VENTE DE MI-SAISON JUSQU'À 70% DE RÉDUCTION. UTILISEZ LE CODE : « VENTE70 ». ACHETEZ MAINTENANT</p>   
+            </div>
+        <img src="images/xdrone.png" width="150px" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="xdrone.html">Xdrone</a></li>
+                <li><a href="propos.html">A propos</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+                <img src="images/panier.png" class="panier">
+                <img src="images/profil.png" class="panier">
+            </ul>
+        </nav>
+        </header>
+        <header class="fixed-header">
+            <img src="images/xdrone.png" width="150px" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="xdrone.html">Xdrone</a></li>
+                    <li><a href="propos.html">A propos</a></li>
+                    <li><a href="contact.html">Contactez-nous</a></li>
+                    <img src="images/panier.png" class="panier">
+                    <img src="images/profil.png" class="panier">
+                </ul>
+            </nav>
+        </header>
+        <script>
+            window.addEventListener('scroll', function() {
+                var initialHeader = document.querySelector('.initial-header');
+                var fixedHeader = document.querySelector('.fixed-header');
+                if (window.scrollY > 0) {
+                    initialHeader.style.display = 'none';
+                    fixedHeader.style.display = 'block';
+                } else {
+                    initialHeader.style.display = 'block';
+                    fixedHeader.style.display = 'none';
+                }
+            });
+        </script>
+        <br>
+        <div class="container"> 
+            <p class="title">Drone Acer Aspire </p>
+        </div>
+        <div class="container1">
+            <div class="product-images">
+                <img src="images/ima.png" alt="Image 1" class="active">
+            </div>
+            <div class="product-description"> 
+                    <h2>Drone Acer Aspire</h2>
+                    <p><span style="font-size: 35px; color: #00b7fa;"><strong>100,00 $</strong></span></p>
+                    <div class="centered-line1"></div>
+                    <p><strong>Disponibilité :</strong> En stock</p>
+                    <p><strong>Marque :</strong><span style="color: #00b7fa"> Canon</span></p>
+                    <p><strong>UGS :</strong> 123</p>
+                    <p><strong>Mots-clés :</strong><span style="color: #00b7fa"> caméra, drone</span></p>
+                    <p><strong>Collections :</strong><span style="color: #00b7fa"> Drone, Page d'accueil, Sélections du personnel</span></p>
+                    <div class="centered-line2"></div>
+                    <label for="quantity">Quantité :</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                    <button class="add-to-cart">Ajouter au panier</button>
+                    <button class="buy-now">Acheter avec <span style="font-style: italic; color: #00b7fa;">PayPal</span></button> 
+                    <div class="product-details">
+                        <h2>Caractéristiques du Drone</h2>
+                        <p>Capturez le monde d'en haut avec SkyExplorer X20 - Votre œil dans le ciel !</p>
+                        
+                        <h3>Présentation :</h3>
+                        <p>Découvrez les capacités inégalées du drone SkyExplorer X20, conçu pour les passionnés et les professionnels...</p>
+                        
+                        <h3>Principales caractéristiques :</h3>
+                        <ul>
+                            <li>Caméra 4K ultra haute définition</li>
+                            <li>Temps de vol prolongé</li>
+                            <li>Modes de vol avancés</li>
+                            <li>Évitement intelligent des obstacles</li>
+                            <li>Compact et portable</li>
+                            <li>Partage sur les réseaux sociaux en un clic</li>
+                        </ul>
+                        
+                        <h3>Qu'y a-t-il dans la boîte :</h3>
+                        <ul>
+                            <li>1 x drone SkyExplorer X20</li>
+                            <li>1 x télécommande</li>
+                            <li>1 x batterie haute capacité</li>
+                            <li>1 x chargeur</li>
+                            <li>4 x hélices de rechange</li>
+                            <li>1 x étui de transport</li>
+                            <li>1 x manuel d'utilisation</li>
+                        </ul>
+                        
+                        <h3>Parfait pour tout le monde :</h3>
+                        <p>Que vous soyez un photographe en herbe, un pilote de drone chevronné ou simplement à la recherche d'un nouveau passe-temps...</p>
+                        
+                        <h3>Garantie et assistance :</h3>
+                        <p>Nous soutenons notre produit avec une garantie d'un an et un support client dédié...</p>
+                        
+                        <h3>Commandez maintenant et libérez votre créativité !</h3>
+                        <p>Élevez votre photographie et votre vidéographie vers de nouveaux sommets avec le SkyExplorer X20...</p>
+                    </div>   
+            </div>
+        </div>  
+       <div class="foire">
+        <div class="subtitle1">
+            <h1 class="bold2" >QUESTIONS FRÉQUEMMENT POSÉES</h1>
+        </div>
+        <div class="separator1"></div>
+        <div class="faq">
+            <div class="faq-question">
+                <label for="q2">Le produit est-il accompagné d'une garantie ?</label>
+                <p>Oui, tous nos produits sont accompagnés d'une garantie d'un an contre les défauts de fabrication. Si vous rencontrez un problème avec votre produit, veuillez nous contacter pour obtenir de l'aide.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q3">Existe-t-il une politique en place pour les retours et les échanges ?</label>
+                <p>Nous offrons une politique de retour de 30 jours. Si vous n'êtes pas entièrement satisfait de votre achat, vous pouvez nous le retourner dans les 30 jours suivant la réception pour un remboursement complet ou un échange.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q4">Comment puis-je suivre ma commande ?</label>
+                <p>Une fois votre commande expédiée, vous recevrez un e-mail de confirmation contenant un lien de suivi pour suivre l'état de votre livraison.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q5">Quels modes de paiement acceptez-vous ?</label>
+                <p>Nous acceptons les principales cartes de crédit (Visa, Mastercard, American Express) ainsi que les paiements via PayPal.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q6">Offrez-vous des remboursements ?</label>
+                <p>Oui, nous offrons une politique de remboursement de 30 jours. Si vous n'êtes pas entièrement satisfait de votre achat, vous pouvez nous le retourner dans les 30 jours suivant la réception pour un remboursement complet.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q7">Puis-je modifier ma commande une fois qu'elle a été passée ?</label>
+                <p>Malheureusement, une fois que votre commande a été passée, nous ne pouvons pas garantir les modifications. Cependant, veuillez nous contacter dès que possible et nous ferons de notre mieux pour vous aider.</p>
+              </div>
+            
+              <div class="faq-question">
+                <label for="q8">Quelle est la politique de garantie de vos produits ?</label>
+                <p>Tous nos produits sont couverts par une garantie d'un an contre les défauts de fabrication. Si vous rencontrez un problème avec votre produit pendant la période de garantie, veuillez nous contacter pour obtenir de l'aide.</p>
+              </div>
+            
+        </div>
+        <script>
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', () => {
+                    const answer = question.querySelector('p');
+                    answer.classList.toggle('show');
+                });
+            });
+
+        </script>
+       </div>
+    </body>  
+    <footer>
+        <div class="social">
+        <div class="group">
+            <h3>Liens rapides</h3>
+            <ul>
+                <li><a href="#">Nos Marques</a></li>
+                <li><a href="#">Trouver un magasin</a></li>
+                <li><a href="#">A Propos</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+            </ul>
+        </div>
+        <div class="group">
+            <h3>Service client</h3>
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Assistance</a></li>
+            </ul>
+        </div>
+        <div class="group">
+            <h3>Mon compte</h3>
+            <ul>
+                <li><a href="#">Se connecter</a></li>
+                <li><a href="#">S'inscrire</a></li>
+                <li><a href="#">Mes commandes</a></li>
+            </ul>
+        </div>
+        <div class="group">
+            <h3>Réseaux sociaux</h3>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+        <div class="copyright">&copy; 2018 XDRONE. Tous droits réservés.</div>
+    </footer>
+</html>
